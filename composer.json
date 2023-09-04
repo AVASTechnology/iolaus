@@ -3,7 +3,7 @@
   "description": "Test Helper traits that allow for simplifying common actions not supported by PHPUnit",
   "version": "1.0.0",
   "minimum-stability": "stable",
-  "license": "MIT License",
+  "license": "MIT",
   "keywords": ["PHPUnit", "Testing"],
   "authors": [
     {
