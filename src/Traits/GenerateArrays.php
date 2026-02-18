@@ -16,6 +16,7 @@ trait GenerateArrays
     {
         yield static::makeList();
         yield static::makeAssociativeArray();
+        yield static::makeMixedArray();
     }
 
     /**
