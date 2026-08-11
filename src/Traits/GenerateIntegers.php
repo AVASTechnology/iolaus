@@ -13,7 +13,7 @@ trait GenerateIntegers
      * @param  bool  $includeNegative
      * @return \Generator
      */
-    public function generateIntegers(bool $includeNegative = true): \Generator
+    public static function generateIntegers(bool $includeNegative = true): \Generator
     {
         $textFormatter = function ($int) {
             return sprintf(
