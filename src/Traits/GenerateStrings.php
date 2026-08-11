@@ -17,7 +17,7 @@ trait GenerateStrings
      * @return \Generator
      * @throws RandomException
      */
-    public function generateStrings(int $maxLength = 65_536): \Generator
+    public static function generateStrings(int $maxLength = 65_536): \Generator
     {
         // empty strings
         yield '' => 'Empty string with no content';

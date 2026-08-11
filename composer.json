@@ -1,7 +1,7 @@
 {
   "name": "avastechnology/iolaus",
   "description": "Test Helper traits that allow for simplifying common actions not supported by PHPUnit",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "minimum-stability": "stable",
   "license": "MIT",
   "keywords": ["PHPUnit", "Testing"],
@@ -15,7 +15,7 @@
   "require": {
     "php": "^8.2",
     "ext-json": "*",
-    "phpunit/phpunit": "~10.0|~11.0"
+    "phpunit/phpunit": "~10.0|~11.0|~12.0|~13.0"
   },
   "autoload": {
     "psr-4": {
